@@ -1,0 +1,12 @@
+{
+    "name": "renzo-medina/crud_basico",
+    "description": "Prueba de crud basico",
+    "type": "project",
+    "authors": [
+        {
+            "name": "RenzoMedina",
+            "email": "medinast30@gmail.com"
+        }
+    ],
+    "require": {}
+}
