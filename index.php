@@ -1,4 +1,4 @@
 <?php
 
-echo "Hola mundo";
+require 'vendor/autoload.php';
 
