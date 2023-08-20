@@ -1,6 +1,10 @@
 {
     "name": "renzo-medina/crud_basico",
+<<<<<<< HEAD
     "description": "Prueba de crud basico",
+=======
+    "description": "crud basico con php para manejador de ruta",
+>>>>>>> dev-backend
     "type": "project",
     "authors": [
         {
@@ -8,5 +12,21 @@
             "email": "medinast30@gmail.com"
         }
     ],
+<<<<<<< HEAD
     "require": {}
+=======
+    "require": {
+        "pecee/simple-router": "5.3.0.5"
+    },
+    "autoload":{
+    	"psr-4":{
+	 "App\\":"App/",
+	"Core\\":"Core/"	 
+	},
+	"files":[
+		"functions.php",
+		"routes.php"
+	]
+    }
+>>>>>>> dev-backend
 }
