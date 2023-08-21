@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border:1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+    padding: 2em;
+    background: #fff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.form-group{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin:10px 0;
+}
+.form-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form-input-label{
+    padding: 10px;
+}
+.form-textarea{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form-label, .form-textarea-label{
+    margin-bottom: 10px;
+}
+.form-textarea textarea{
+    resize: vertical;
+    padding: 10px;
+}
+.form-input-label, .form-textarea textarea{
+    font-size: 17px;
+
+}
+.form-input-label:focus, .form-textarea textarea:focus{
+        border-color: rgba(58, 58, 59, 0.3);
+}
+.form-input-label ,.form-textarea textarea, .form-button{
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+.form-input-label, .form-button{
+    height: 33px;
+}
+.form-button{
+    font-size: 20px;
+    height: 40px;
+    background: rgb(16, 96, 97);
+    color: #fff;
+    border-color: rgb(16, 96, 97);
+    transition: all .2s;
+}
+.form-button:hover{
+    background: rgb(20, 124, 126);
+    border-color:rgb(20, 124, 126);;
+}

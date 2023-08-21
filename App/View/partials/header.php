@@ -1,8 +1,11 @@
-<!Doctype >
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>CRUD</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="Public/style.css">
 </head>
 <body>
+    
 
