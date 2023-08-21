@@ -2,7 +2,7 @@
 
 namespace Core\Database;
 use PDO;
-use PDO\PDOException;
+use PDOException;
 
 class Connection{
 

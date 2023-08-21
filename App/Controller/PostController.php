@@ -11,9 +11,8 @@ class PostController{
 	}
 
 	public function store(){
-		$conn = Connection::start();
-		dd($conn);
-
+	
+		return view("post");
 	}
 
 	public function update($id){
